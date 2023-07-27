@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/7f6d69b78c.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BevanHealth Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/stethoscope?f=classic&s=solid">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="" id="navbar__logo">Bevan Health</a>
+            <a href="" id="navbar__logo"><i class="fa-solid fa-stethoscope"></i>   Bevan Health</a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -20,13 +25,43 @@
                     <a href="/" class="navbar__links"> Home </a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/contact.html" class="navbar__links"> Technology </a>
+                    <a href="/technology.html" class="navbar__links"> Technology </a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/" class="button"> Contact </a>
+                    <a href="/contact.html" class="button"> Contact </a>
                 </li>
             </ul>
         </div>
     </nav>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Patient Flow Powered by AI</h1>
+                <h2>Technology</h2>
+                <p>See what makes us different.</p>
+                <button class="main__btn"><a href="/">Get Started</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/undraw_medicine_b-1-ol.svg" alt="" id="main__img">
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <h1>See what the hype is about</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Ease Your Flow</h2>
+                <p>AI-powered Patient Flow Management</p>
+                <button>Talk to the team</button>
+            </div>
+            <div class="services__card">
+                <h2>Visualise Your System</h2>
+                <p>Powerful Dashboard Visual Summaries</p>
+                <button>Talk to the team</button>
+            </div>
+        </div>  
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
